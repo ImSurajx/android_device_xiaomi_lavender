@@ -1,13 +1,17 @@
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# ART
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
+
 # CNE
 persist.vendor.cne.feature=1
 
 # Graphics
 debug.sf.enable_hwc_vds=0
 
-#Dex
+# Dex
 dalvik.vm.dex2oat64.enabled=true
 
 # Radio
@@ -28,7 +32,7 @@ persist.dirac.acs.controller=qem
 persist.dirac.acs.ignore_error=1 
 persist.dirac.acs.storeSettings=1
 
-#Display 
+# Display 
 renderthread.skia.reduceopstasksplitting=true
 vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
