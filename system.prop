@@ -30,6 +30,8 @@ persist.dirac.acs.storeSettings=1
 
 #Display 
 renderthread.skia.reduceopstasksplitting=true
+vendor.display.disable_rotator_downscale=1
+vendor.display.disable_scaler=0
 
 # Dexopt
 pm.dexopt.first-boot=quicken
