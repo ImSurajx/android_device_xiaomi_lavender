@@ -197,6 +197,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.sta_detect=true
 
 # SurfaceFlinger
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_backpressure=0 \
+    debug.sf.enable_gl_backpressure=1 \
+    debug.sf.enable_hwc_vds=1 \
+    debug.sf.hw=1 \
+    debug.sf.latch_unsignaled=1
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.use_phase_offsets_as_durations=1 \
     debug.sf.late.sf.duration=10500000 \
