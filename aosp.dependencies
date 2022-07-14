@@ -1,0 +1,20 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "ImSurajx/android_device_xiaomi_lavender",
+    "target_path": "device/xiaomi/lavender",
+    "branch":      "12L"
+  },
+  {
+    "repository"  : "android_vendor_xiaomi_lavender",
+    "target_path" : "vendor/xiaomi/lavender",
+    "branch"      : "12L",
+    "remote"      : "ImSurajx"
+  },
+  {
+    "remote":      "github",
+    "repository" : "ImSurajx/android_kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/lavender",
+    "branch"     : "Eas-Qti"
+  }
+]
