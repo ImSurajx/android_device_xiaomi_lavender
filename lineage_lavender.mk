@@ -16,6 +16,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
+# Inherit Some Applictions
+$(call inherit-product, packages/apps/OnePlus/PrebuiltCalculatorOnePlus/config.mk)
+$(call inherit-product, packages/apps/OnePlus/PrebuiltDeskClockOnePlus/config.mk)
+$(call inherit-product, packages/apps/Google/YouTubePremium/Microg/config.mk)
+$(call inherit-product, packages/apps/Google/YouTubePremium/YouTube/config.mk)
+$(call inherit-product, packages/apps/Google/Camera/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_lavender
 PRODUCT_DEVICE := lavender
