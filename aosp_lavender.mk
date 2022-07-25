@@ -28,7 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 $(call inherit-product, packages/apps/OnePlus/PrebuiltCalculatorOnePlus/config.mk)
 $(call inherit-product, packages/apps/OnePlus/PrebuiltDeskClockOnePlus/config.mk)
 $(call inherit-product, packages/apps/Google/YouTubePremium/Microg/config.mk)
-$(call inherit-product, packages/apps/Google/YouTubePremium/YouTube/config.mk)
+$(call inherit-product, packages/apps/Google/YouTubePremium/YouTubeVanced/config.mk)
 $(call inherit-product, packages/apps/Google/Camera/config.mk)
 
 # Device identifier. This must come after all inclusions.
